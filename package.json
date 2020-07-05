@@ -1,0 +1,19 @@
+{
+  "name": "spa-vanilla",
+  "version": "1.0.0",
+  "description": "Single page application of rick and morty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcamiloguz/SPA-vanilla.git"
+  },
+  "author": "Juan Camilo Guzman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcamiloguz/SPA-vanilla/issues"
+  },
+  "homepage": "https://github.com/jcamiloguz/SPA-vanilla#readme"
+}
