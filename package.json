@@ -4,7 +4,8 @@
   "description": "Single page application of rick and morty",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"webpack --mode production",
+    "start":"webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/jcamiloguz/SPA-vanilla/issues"
   },
-  "homepage": "https://github.com/jcamiloguz/SPA-vanilla#readme"
+  "homepage": "https://github.com/jcamiloguz/SPA-vanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
