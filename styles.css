@@ -150,10 +150,3 @@ body {
     border-bottom-right-radius: 20px;
   }
 }
-
-@media screen and (max-width: 450px) {
-  .Header-main{
-    flex-direction: column;
-    justify-content: space-around;
-  }
-}
